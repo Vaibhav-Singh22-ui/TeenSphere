@@ -1,0 +1,6 @@
+{
+  "name": "TeenSphere",
+  "description": "TeenSphere is a premium digital wellness platform exclusively for teenagers. It helps teens understand and manage academic, emotional, and social challenges through interactive tools, resources, and supportive AI conversation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

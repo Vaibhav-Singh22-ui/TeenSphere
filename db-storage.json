@@ -1,0 +1,209 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "Alex_Teen",
+      "email": "teen@teensphere.com",
+      "role": "user",
+      "avatarUrl": "https://api.dicebear.com/7.x/adventurer/svg?seed=Alex",
+      "xp": 220,
+      "level": 2,
+      "streak": 5,
+      "lastActive": "2026-06-08T19:27:14.877Z",
+      "createdAt": "2026-05-09T19:27:14.879Z"
+    },
+    {
+      "id": "u2",
+      "username": "Staff_Moderator",
+      "email": "admin@teensphere.com",
+      "role": "admin",
+      "avatarUrl": "https://api.dicebear.com/7.x/bottts/svg?seed=Staff",
+      "xp": 1500,
+      "level": 15,
+      "streak": 42,
+      "lastActive": "2026-06-08T19:27:14.879Z",
+      "createdAt": "2026-04-09T19:27:14.879Z"
+    },
+    {
+      "id": "u3",
+      "username": "Vaibhav",
+      "email": "vaibhavsingh9862@gmail.com",
+      "role": "user",
+      "avatarUrl": "https://api.dicebear.com/7.x/adventurer/svg?seed=Vaibhav",
+      "xp": 50,
+      "level": 1,
+      "streak": 1,
+      "lastActive": "2026-06-08T19:27:14.879Z",
+      "createdAt": "2026-06-08T19:27:14.879Z"
+    },
+    {
+      "id": "u_romzrtth2",
+      "username": "chil",
+      "email": "vaibhavsingh7817042@gmail.com",
+      "role": "user",
+      "avatarUrl": "https://api.dicebear.com/7.x/adventurer/svg?seed=chil",
+      "xp": 10,
+      "level": 1,
+      "streak": 1,
+      "lastActive": "2026-06-08T20:01:52.735Z",
+      "createdAt": "2026-06-08T20:01:30.310Z"
+    }
+  ],
+  "moodEntries": [
+    {
+      "id": "m1",
+      "userId": "u1",
+      "moodValue": 4,
+      "emotions": [
+        "peaceful",
+        "proud"
+      ],
+      "notes": "Aced my math midterm after feeling super anxious last week. Grounding skills with Box Breathing really helped!",
+      "activities": [
+        "exercised",
+        "journaled"
+      ],
+      "createdAt": "2026-06-07T19:27:14.879Z"
+    },
+    {
+      "id": "m2",
+      "userId": "u1",
+      "moodValue": 3,
+      "emotions": [
+        "tired",
+        "anxious"
+      ],
+      "notes": "Exhausted from studying late for English. Tried to stay positive.",
+      "activities": [
+        "guided_breathing"
+      ],
+      "createdAt": "2026-06-06T19:27:14.879Z"
+    },
+    {
+      "id": "m3",
+      "userId": "u1",
+      "moodValue": 5,
+      "emotions": [
+        "excited",
+        "happy"
+      ],
+      "notes": "Had a great hanging out session with friends. Realized that taking a break is totally fine.",
+      "activities": [
+        "exercised",
+        "listened_music"
+      ],
+      "createdAt": "2026-06-05T19:27:14.879Z"
+    },
+    {
+      "id": "m4",
+      "userId": "u1",
+      "moodValue": 2,
+      "emotions": [
+        "overwhelmed",
+        "anxious"
+      ],
+      "notes": "Felt really swamped with history essays and exam prep. Need to plan things better.",
+      "activities": [
+        "guided_breathing"
+      ],
+      "createdAt": "2026-06-04T19:27:14.879Z"
+    }
+  ],
+  "journalEntries": [
+    {
+      "id": "j1",
+      "userId": "u1",
+      "title": "Finding my rhythm",
+      "content": "Writing is my escape from pressure. Today I realized my thoughts don't define my worth. Stressed is just a feeling, and it will pass.",
+      "moodRating": 4,
+      "createdAt": "2026-06-07T19:27:14.879Z"
+    },
+    {
+      "id": "j2",
+      "userId": "u1",
+      "title": "Family Dinner Calmness",
+      "content": "Usually dinners with family are chaotic, but today we actually laughed without fighting about clean bedrooms or TikTok times. I am grateful for that moment.",
+      "moodRating": 5,
+      "createdAt": "2026-06-05T19:27:14.879Z"
+    }
+  ],
+  "activitiesProgress": [
+    {
+      "id": "p1",
+      "userId": "u1",
+      "activityId": "gratitude_log",
+      "type": "journal",
+      "xpEarned": 25,
+      "createdAt": "2026-06-07T19:27:14.879Z"
+    },
+    {
+      "id": "p2",
+      "userId": "u1",
+      "activityId": "breathing_478",
+      "type": "breathing",
+      "xpEarned": 15,
+      "createdAt": "2026-06-06T19:27:14.879Z"
+    },
+    {
+      "id": "p3",
+      "userId": "u1",
+      "activityId": "affirmation_daily",
+      "type": "affirmation",
+      "xpEarned": 10,
+      "createdAt": "2026-06-07T19:27:14.879Z"
+    }
+  ],
+  "contactRequests": [
+    {
+      "id": "cr1",
+      "name": "Sam Roberts",
+      "email": "sam@cyberstudent.com",
+      "subject": "Inquiry about high school support partnerships",
+      "message": "Hello TeenSphere team! I love what you are building. Do you offer bulk integrations or materials for high school wellness counselors?",
+      "status": "pending",
+      "createdAt": "2026-06-06T19:27:14.879Z"
+    }
+  ],
+  "helplines": [
+    {
+      "id": "h1",
+      "name": "988 Suicide & Crisis Lifeline",
+      "number": "988",
+      "category": "Crisis & Suicide Prevention",
+      "hours": "24/7",
+      "description": "Free, confidential support for people in distress, prevention and crisis resources."
+    },
+    {
+      "id": "h2",
+      "name": "Crisis Text Line",
+      "number": "Text HOME to 741741",
+      "category": "Mental Health Support",
+      "hours": "24/7",
+      "description": "Crisis Text Line provides free, 24/7 high-quality text-based crisis intervention."
+    },
+    {
+      "id": "h3",
+      "name": "The Trevor Project",
+      "number": "1-866-488-7386 or Text START to 678-678",
+      "category": "LGBTQ+ Youth support",
+      "hours": "24/7",
+      "description": "Crisis intervention and suicide prevention services for lesbian, gay, bisexual, transgender, queer & questioning (LGBTQ) young people."
+    },
+    {
+      "id": "h4",
+      "name": "National Eating Disorders Association (NEDA)",
+      "number": "1-800-931-2237",
+      "category": "Eating Disorders",
+      "hours": "Mon-Thu 9am-9pm, Fri 9am-5pm EST",
+      "description": "Support, resources, and treatment options for individual and family members struggling with eating disorders."
+    },
+    {
+      "id": "h5",
+      "name": "Substance Abuse and Mental Health Services (SAMHSA)",
+      "number": "1-800-662-4357",
+      "category": "Substance Use & Addictions",
+      "hours": "24/7",
+      "description": "Free, confidential, 24/7 treatment referral and information service in English and Spanish."
+    }
+  ]
+}
