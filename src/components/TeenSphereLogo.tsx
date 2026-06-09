@@ -152,7 +152,7 @@ import React from 'react'
 const TeenSphereLogo = () => {
   return (
     <div>
-      <img src="/Gemini_Generated_Image_4j58ee4j58ee4j58.png" alt="Logo" height="50px" width="120px" />
+      <img src="https://res.cloudinary.com/dzz8f9uov/image/upload/Gemini_Generated_Image_4j58ee4j58ee4j58_osg9jd" alt="Logo" height="50px" width="120px" />
     </div>
   )
 }
