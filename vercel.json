@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://teensphere-production.up.railway.app/api/$1"
+    }
+  ]
+}
