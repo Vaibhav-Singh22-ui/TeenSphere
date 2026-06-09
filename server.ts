@@ -10,12 +10,14 @@ import { createServer as createViteServer } from "vite";
 import { db } from "./src/server/db.js";
 import { GoogleGenAI } from "@google/genai";
 import { UserRole } from "./src/types.js";
+import cors from "cors";
 
 // Load environment variables
 dotenv.config();
 
 const app = express();
-const PORT = 3000;
+app.use(cors());
+const PORT = process.env.PORT || 3000;
 
 // Setup Gemini Client
 const geminiApiKey = process.env.GEMINI_API_KEY;
